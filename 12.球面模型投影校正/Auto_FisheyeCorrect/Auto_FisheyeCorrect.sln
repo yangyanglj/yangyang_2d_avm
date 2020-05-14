@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Auto_FisheyeCorrect", "Auto_FisheyeCorrect\Auto_FisheyeCorrect.vcproj", "{977C12C8-A051-4784-928E-08C4B76B2FD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{977C12C8-A051-4784-928E-08C4B76B2FD9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{977C12C8-A051-4784-928E-08C4B76B2FD9}.Debug|Win32.Build.0 = Debug|Win32
+		{977C12C8-A051-4784-928E-08C4B76B2FD9}.Release|Win32.ActiveCfg = Release|Win32
+		{977C12C8-A051-4784-928E-08C4B76B2FD9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

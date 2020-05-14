@@ -1,0 +1,48 @@
+black  棋盘格
+(x,y):600,319　1
+(x,y):727,319 2
+(x,y):758,387 3
+(x,y):578,385 4
+
+xDistortion:598.836   yDistortion:316.323
+xDistortion:729.16   yDistortion:315.934
+xDistortion:759.671   yDistortion:386.336
+xDistortion:577.399   yDistortion:384.615
+
+
+
+top  棋盘格
+(x,y):586,339
+(x,y):720,342
+(x,y):753,406
+(x,y):545,404
+
+xDistortion:586.039   yDistortion:346.715
+xDistortion:714.968   yDistortion:351.354
+xDistortion:749.327   yDistortion:409.65
+xDistortion:544.286   yDistortion:406.309
+
+
+left  棋盘格
+(x,y):605,323
+(x,y):716,320
+(x,y):739,367
+(x,y):586,370
+xDistortion:603.067   yDistortion:334.071
+xDistortion:707.035   yDistortion:335.098
+xDistortion:731.407   yDistortion:375.462
+xDistortion:585.62   yDistortion:374.645
+
+
+right  棋盘格
+(x,y):595,358
+(x,y):700,361
+(x,y):721,409
+(x,y):572,404
+xDistortion:592.805   yDistortion:348.089
+xDistortion:705.191   yDistortion:350.562
+xDistortion:724.748   yDistortion:405.157
+xDistortion:570.174   yDistortion:400.639
+
+
+

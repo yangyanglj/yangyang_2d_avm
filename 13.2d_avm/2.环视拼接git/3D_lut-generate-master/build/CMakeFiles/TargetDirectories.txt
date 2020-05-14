@@ -1,0 +1,5 @@
+/home/gale/3DLUT_generator/build/CMakeFiles/edit_cache.dir
+/home/gale/3DLUT_generator/build/CMakeFiles/rebuild_cache.dir
+/home/gale/3DLUT_generator/bin/CMakeFiles/edit_cache.dir
+/home/gale/3DLUT_generator/bin/CMakeFiles/rebuild_cache.dir
+/home/gale/3DLUT_generator/bin/CMakeFiles/srv_lut_gen.dir

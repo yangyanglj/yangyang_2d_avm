@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<opencv_storage>
+           <!--设置标定参数-->
+<Settings>
+ 
+           <!-- Number of inner corners per a item row and column. 宽度和高度的设置(square, circle) -->
+<BoardSize_Width> 5</BoardSize_Width> 
+<BoardSize_Height>4</BoardSize_Height>
+ 
+           <!-- The size of a square in some user defined metric system 每个方格的边长的长度单位一般是mm(pixel, millimeter)-->
+<Square_Size>22</Square_Size>
+ 
+         <!-- The type of input used for camera calibration. 标定模板的样式（棋盘）
+         这里一共有三种模板One of: CHESSBOARD CIRCLES_GRID ASYMMETRIC_CIRCLES_GRID -->
+<Calibrate_Pattern>"CHESSBOARD"</Calibrate_Pattern>
+ 
+                <!-- The input to use for calibration.
+        To use an input camera -> give the ID of the camera, like "1"
+        To use an input video  -> give the path of the input video, like "/tmp/x.avi"
+        To use an image list   -> give the path to the XML or YAML file containing the list of the images,
+                like "/tmp/circles_list.xml"
+        输入标定模板的方式有三种方式：摄像头输入；视频输入；照片文件流输入-->
+<Input>"./VID.xml"</Input>
+ 
+ 
+ 
+              <!--  If true (non-zero) we flip the input images around the horizontal axis.
+                 如果为真（非零），安照垂直方向翻转输入图像，这里选择为零，即不翻转-->
+<Input_FlipAroundHorizontalAxis>0</Input_FlipAroundHorizontalAxis>
+  
+                  <!-- Time delay between frames in case of camera.在使用相机的情况下的帧之间的时间延迟 -->
+<Input_Delay>100</Input_Delay>
+                  <!-- How many frames to use, for calibration.用多少帧照片去校准，可以自己设置，一般不能低于20个 -->
+<Calibrate_NrOfFrameToUse>25</Calibrate_NrOfFrameToUse>
+                 <!-- Consider only fy as a free parameter, the ratio fx/fy stays the same as in the input cameraMatrix.
+               Use or not setting. 0 - False Non-Zero - True
+                    假设fy是一个自由参数，而fx/fy是一个固定的比例参数，使用或者不设置 0    假  非零  真-->
+<Calibrate_FixAspectRatio> 1 </Calibrate_FixAspectRatio>
+                <!-- If true (non-zero) tangential distortion coefficients  are set to zeros and stay zero.
+                 如果设置为真，表示切向畸变系数被设置为0  保持为零-->
+<Calibrate_AssumeZeroTangentialDistortion>1</Calibrate_AssumeZeroTangentialDistortion>
+                 <!-- If true (non-zero) the principal point（摄像机坐标系下真实的坐标原点） is not changed during the global optimization.-->
+<Calibrate_FixPrincipalPointAtTheCenter> 1 </Calibrate_FixPrincipalPointAtTheCenter>
+                   <!-- The name of the output log file. 输出文件的名称-->
+<Write_outputFileName>"out_camera_data.xml"</Write_outputFileName>
+                  <!-- If true (non-zero) we write to the output file the feature points.（如果为真我们向输出文件写入特征点）-->
+<Write_DetectedFeaturePoints>1</Write_DetectedFeaturePoints>
+                  <!-- If true (non-zero) we write to the output file the extrinsic camera parameters.（写入相机的外部参数）-->
+<Write_extrinsicParameters>1</Write_extrinsicParameters>
+                         <!-- If true (non-zero) we show after calibration the undistorted images.展示校准后不失真的照片-->
+ <Show_UndistortedImage>1</Show_UndistortedImage>
+ 
+</Settings>
+ 
+</opencv_storage>

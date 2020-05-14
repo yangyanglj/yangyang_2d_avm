@@ -1,0 +1,8 @@
+txt文件为图片路径描述文件
+yml文件为标定参数记录文件
+
+images_songxia、images_yuanye文件夹存放原图像
+undistort_songxia、undistort_yuanye文件夹中存放畸变校正图像
+
+calibration.cpp和cvundistort.cpp为OpenCV原程序，只有畸变矫正
+calibration_1.cpp和cvundistort_1.cpp加入了俯视投影

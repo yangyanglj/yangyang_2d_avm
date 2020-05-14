@@ -1,0 +1,31 @@
+﻿生成启动时间为 2016/10/24 星期一 23:29:36。
+     1>项目“E:\personal data\大四\毕业设计\发表论文\3.0鱼眼标定校正 改进\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2012\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "源.cpp"
+         源.cpp
+     1>D:\opencv3.0\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3.0\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3.0\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>源.cpp(94): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>源.cpp(95): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>源.cpp(136): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>源.cpp(137): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>源.cpp(140): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>源.cpp(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>源.cpp(144): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 源.cpp(138) : 忽略“i”的定义
+                 源.cpp(129) : 使用“i”的定义
+     1>源.cpp(145): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 源.cpp(138) : 忽略“i”的定义
+                 源.cpp(129) : 使用“i”的定义
+     1>源.cpp(146): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 源.cpp(138) : 忽略“i”的定义
+                 源.cpp(129) : 使用“i”的定义
+       Link:
+         D:\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\personal data\大四\毕业设计\发表论文\3.0鱼眼标定校正 改进\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\personal data\大四\毕业设计\发表论文\3.0鱼眼标定校正 改进\ConsoleApplication1\x64\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\personal data\大四\毕业设计\发表论文\3.0鱼眼标定校正 改进\ConsoleApplication1\x64\Debug\ConsoleApplication1.lib" /MACHINE:X64 "x64\Debug\源.obj"
+         ConsoleApplication1.vcxproj -> E:\personal data\大四\毕业设计\发表论文\3.0鱼眼标定校正 改进\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+     1>已完成生成项目“E:\personal data\大四\毕业设计\发表论文\3.0鱼眼标定校正 改进\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.24

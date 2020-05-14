@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/srv_lut_gen.dir/main.cpp.o  -o srv_lut_gen -rdynamic -lGL -lglfw3 -lX11 -lXxf86vm -lXrandr -lpthread -lXi -ldl -lXinerama -lXcursor -lm 

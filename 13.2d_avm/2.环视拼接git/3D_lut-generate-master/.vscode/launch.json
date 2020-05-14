@@ -1,0 +1,27 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/srv_lut_gen",//此处默认为${workspaceFolder}指向工作空间 需要添加到可执行文件的绝对路径
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/bin/", //定义终端输入位置，默认是${workspaceFolder}，会导致main中的文件路径出现问题
+            "environment": [],
+            "externalConsole": false,//定义是否使用外部的命令行终端，此处定义false表示在vscode中的命令行显示打印信息
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

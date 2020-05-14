@@ -1,0 +1,4 @@
+[Path]
+input = /Users/cfanatic/Coding/C++/Birdview/misc
+output = /Users/cfanatic/Coding/C++/Birdview/misc/transform
+filename = img.png

@@ -1,0 +1,6 @@
+*.app
+*.pro.user
+.DS_Store
+.vscode/
+build/
+misc/
